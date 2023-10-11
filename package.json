@@ -7,10 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "lite-server --baseDir=dist",
     "start": "concurrently\"npm run watch\"npm run server\"",
-    "compile": "tsc",
+    "c": "tsc",
     "watch": "tsc -w"
   },
-  "author": "",
+  "author": "Victor",
   "license": "ISC",
   "dependencies": {
     "concurrently": "^8.2.1",
